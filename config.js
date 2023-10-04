@@ -1,10 +1,10 @@
 // ✩｡:*•.─────  NUMERO OWNER  ─────.•*:｡✩ 
-global.owner = ['51993042301', '16477229464', '593993684821', '593968585383', '50495086382', '50497501147', '5218451003894', '5215573031859', '50498965677', '528451003894', '525573031859'] //Agrega primero el numero que será Bot, luego los numeros a ser Owner
-global.mods = [] //Moderadores
+global.owner = ['51993042301'] //grega primero el numero que será Bot, luego los numeros a ser Owner
+global.mods = [5491166073235] //Moderadores
 global.prems = [] //Premium, sin Limites en usar el Bot
 
 // ✩｡:*•.─────  INFORMACIION DEL BOT - GENERAL  ─────.•*:｡✩ 
-global.packname = '𝑴𝒖𝒍𝒕𝒊𝒗𝒆𝒓𝒔𝒆𝑩𝒐𝒕-𝑴𝑫' //Sticker
+global.packname = Multiverse-𝑴𝑫' //Sticker
 global.author = '@gata_dios'
 
 global.nameowner = '✨ 𝑴𝒖𝒍𝒕𝒊𝒗𝒆𝒓𝒔𝒆𝑩𝒐𝒕-𝑴𝑫 ✨' //Nombre del Bot
@@ -148,4 +148,4 @@ fs.watchFile(file, () => {
   console.log(chalk.redBright("Update 'config.js'"))
   delete require.cache[file]
   require(file)
-})
+}
